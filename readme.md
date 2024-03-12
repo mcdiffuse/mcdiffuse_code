@@ -19,13 +19,12 @@ Detailed instructions on how to use the code for training and inference.
 These examples showcase the performance of our models on speech enhancement tasks. Scroll horizontally to compare the mixed input with the output of each model.
 
 
-
 | Mixed Audio  | MC-DiffSE |
 |--------------|-----------|
 |Easy Samples  |           |
-| <audio class="audio-player" src="audio/e_1_mix.wav" controls preload></audio> | <audio class="audio-player" src="audio/e_1_recon.wav" controls preload></audio> |
-| <audio class="audio-player" src="audio/e_2_mix.wav" controls preload></audio> | <audio class="audio-player" src="audio/e_2_recon.wav" controls preload></audio> |
+[Mixture 1](audio/e_1_mix.wav) | [Reconstruction 1](audio/e_1_recon.wav)
+[Mixture 2](audio/e_2_mix.wav) | [Reconstruction 2](audio/e_2_recon.wav)
 |Difficult Samples |       |
-| <audio class="audio-player" src="audio/d_1_mix.wav" controls preload></audio> | <audio class="audio-player" src="audio/d_1_recon.wav" controls preload></audio> |
-|Hallucination Examples |   |
-| <audio class="audio-player" src="audio/h_1_mix.wav" controls preload></audio> | <audio class="audio-player" src="audio/h_1_recon.wav" controls preload></audio> |
+[Mixture 1](audio/d_1_mix.wav) | [Reconstruction 1](audio/d_1_recon.wav)
+|Hallucination Examples |       |
+[Mixture 1](audio/h_1_mix.wav) | [Reconstruction 1](audio/h_1_recon.wav)

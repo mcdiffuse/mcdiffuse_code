@@ -1,10 +1,3 @@
-<style>
-/* .audio-player {
-    width: 200px; /* Adjust the width as needed */
-    overflow: hidden;
-} */
-</style>
-
 # Clarity or Confusion: The Double-Edged Sword of Diffusion-based Speech Enhancement
 This repository contains the official codebase and example hosting for our paper "Clarity or Confusion: The Double-Edged Sword of Diffusion-based Speech Enhancement." Our work explores the impact of diffusion-based models on speech enhancement, comparing their performance in various scenarios.
 

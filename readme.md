@@ -9,11 +9,10 @@ This section outlines the structure of the repository and the contents of each d
 - `audio/`: Contains audio samples used in the README for demonstration.
 - `code/`: Contains the code used for training and a simple Jupyter notebook for inference.
 
-## Installation
-Instructions on how to set up the environment and install necessary dependencies.
+## SGMSE & TF-Gridnet
+Documentation and code for these models are available in their GitHub or Papers.
 
-## Usage
-Detailed instructions on how to use the code for training and inference.
+[SGMSE GitHub](https://github.com/sp-uhh/sgmse) | [TF-Gridnet Paper](https://arxiv.org/pdf/2211.12433.pdf) 
 
 ## Speech Enhancement Examples
 These examples showcase the performance of our models on speech enhancement tasks. Scroll horizontally to compare the mixed input with the output of each model.
@@ -37,13 +36,3 @@ These examples showcase the performance of our models on speech enhancement task
 ||"who with his latin clergy **is** ignorant of the language the arts and the theology of **a priest**" |
 "i even bought something from edge i mean missus wilson" | "i even bought something from edge i **i am** missus wilson"
 ||"i even bought something from edge i **i** mean missus wilson"|
-
-
-<!-- 
-### Real Text: 
-"who with his latin clergy was ignorant of the language the arts and the theology of the greeks"
-
-## Hallucinations:
-"who with his latin clergy was ignorant of the language the arts and the theology of **greece**"
-
-"who with his latin clergy **is** ignorant of the language the arts and the theology of **a priest**" -->

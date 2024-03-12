@@ -35,7 +35,7 @@ These examples showcase the performance of our models on speech enhancement task
 |--------------|-----------|
 "who with his latin clergy was ignorant of the language the arts and the theology of the greeks" | "who with his latin clergy was ignorant of the language the arts and the theology of **greece**"  
 ||"who with his latin clergy **is** ignorant of the language the arts and the theology of **a priest**" |
-"i even bought something from edge i mean missus wilson" | "i even bought something from edge i **i am in** missus wilson"
+"i even bought something from edge i mean missus wilson" | "i even bought something from edge i **i am** missus wilson"
 ||"i even bought something from edge i **i** mean missus wilson"|
 
 

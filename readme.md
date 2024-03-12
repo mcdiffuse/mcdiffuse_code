@@ -28,3 +28,22 @@ These examples showcase the performance of our models on speech enhancement task
 [Mixture 1](audio/d_1_mix.wav) | [Reconstruction 1](audio/d_1_recon.wav)
 |Hallucination Examples |       |
 [Mixture 1](audio/h_1_mix.wav) | [Reconstruction 1](audio/h_1_recon.wav)
+
+## Hallucination Examples
+
+| Real Text  | Hallucination |
+|--------------|-----------|
+"who with his latin clergy was ignorant of the language the arts and the theology of the greeks" | "who with his latin clergy was ignorant of the language the arts and the theology of **greece**"  
+||"who with his latin clergy **is** ignorant of the language the arts and the theology of **a priest**" |
+"i even bought something from edge i mean missus wilson" | "i even bought something from edge i **i am in** missus wilson"
+||"i even bought something from edge i **i** mean missus wilson"|
+
+
+<!-- 
+### Real Text: 
+"who with his latin clergy was ignorant of the language the arts and the theology of the greeks"
+
+## Hallucinations:
+"who with his latin clergy was ignorant of the language the arts and the theology of **greece**"
+
+"who with his latin clergy **is** ignorant of the language the arts and the theology of **a priest**" -->

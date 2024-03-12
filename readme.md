@@ -21,12 +21,17 @@ These examples showcase the performance of our models on speech enhancement task
 | Mixed Audio  | MC-DiffSE |
 |--------------|-----------|
 |Easy Samples  |           |
-[Mixture 1](audio/e_1_mix.wav) | [Reconstruction 1](audio/e_1_recon.wav)
-[Mixture 2](audio/e_2_mix.wav) | [Reconstruction 2](audio/e_2_recon.wav)
+[Mixture 1](audio/mixture_1764_e_1_mix.wav) | [Reconstruction 1](audio/mixture_1764_e_1_recon.wav)
+[Mixture 2](audio/mixture_1501_e_2_mix.wav) | [Reconstruction 2](audio/mixture_1501_e_2_recon.wav)
+[Mixture 3](audio/mixture_673_e_3_mix.wav) | [Reconstruction 3](audio/mixture_673_e_3_recon.wav)
 |Difficult Samples |       |
-[Mixture 1](audio/d_1_mix.wav) | [Reconstruction 1](audio/d_1_recon.wav)
+[Mixture 1](audio/mixture_1669_d_1_mix.wav) | [Reconstruction 1](audio/mixture_1669_d_1_recon.wav)
+[Mixture 2](audio/mixture_1319_d_2_mix.wav) | [Reconstruction 2](audio/mixture_1319_d_2_recon.wav)
+[Mixture 3](audio/mixture_1005_d_3_mix.wav) | [Reconstruction 3](audio/mixture_1005_d_3_recon.wav)
 |Hallucination Examples |       |
-[Mixture 1](audio/h_1_mix.wav) | [Reconstruction 1](audio/h_1_recon.wav)
+[Mixture 1](audio/mixture_499_h_1_mix.wav) | [Reconstruction 1](audio/mixture_499_h_1_recon.wav)
+[Mixture 2](audio/mixture_1341_h_2_mix.wav) | [Reconstruction 2](audio/mixture_1341_h_2_recon.wav)
+[Mixture 3](audio/mixture_499_h_3_mix.wav) | [Reconstruction 3](audio/mixture_499_h_3_recon.wav)
 
 ## Hallucination Examples
 

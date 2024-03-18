@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio-Journey: Open Domain Latent Diffusion Based Text-to-Audio Generation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        .grid-container {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 20px;
+        }
+        .grid-item {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+        }
+        
+        .grid-item p {
+          flex: 0 0 auto;
+          height: 60px; /* You can adjust this value depending on your needs */
+          overflow: hidden;
+        }
+        
+        audio {
+          width: 100%;
+          margin-bottom: 10px;
+          flex: 1 0 auto;
+        }
+        .examples-container {
+            display: flex;
+            justify-content: space-between; /* This will space out the examples evenly */
+        }
+        
+        .example {
+            flex: 1;
+            text-align: center; /* This will center the title and the link in each example */
+            margin: 0 10px; /* Optional: gives some margin between examples */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Anonymous Submission: MC-DiffSE</h1>
+        <p>This repository contains the anonymous submission of our work titled "Clarity or Confusion: The Double-Edged Sword of Diffusion-based Speech Enhancement".</p>
+
+        <h2>Abstract</h2>
+        <p>Diffusion-based generative models (DGMs) have recently garnered lots of attention also in the speech processing field following the promising results achieved in computer vision. Recent studies suggest that DGMs have better generalization and produces less intrusive artifacts than discriminative methods. However, to our best knowledge, no systematic experimental review exists on this subject with a fairer comparison with state-of-the-art (SotA) discriminative models. In this work we test the generalization capability of DGM for SE, comparing three different models on 4 datasets with mismatch characteristics. We evaluate the performance using signal level, perceptual and semantical characteristics of the enhanced speech 8 metrics.Our results  show that DGMs methods do not have yet a clear advantage over SotA discriminative ones for SE and are also more prone to hallucinating the content of the speech especially in highly mismatched conditions such as real-world spontaneous speech.</p>
+
+        <h2>Code</h2>
+        <p>The supporting code for our work is available in the repository.</p>
+    
+        <h2>Paper</h2>
+        
+        <div class="examples-container">
+            <div class="example">
+                <p>Visit the MC-Diffse project on GitHub:</p>
+                <a href="https://github.com/mcdiffuse/mcdiffuse_code">MC-Diffse on GitHub</a>
+            </div>
+            <div class="example">
+                <p>Read our preprint:</p>
+                <a href="https://github.com/mcdiffuse/mcdiffuse_code.github.io/blob/main/Interspeech_mc_diffse_preprint.pdf">MC-Diffse Preprint</a>
+            </div>
+        </div>
+        
+    <h2>Examples</h2>
+    <h4>Easy</h4> 
+    <div class="grid-container">
+        <div class="grid-item">
+            <p>Mixture</p>
+            <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_1764_e_1_mix.wav" autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            
+            </div>
+            <div class="grid-item">
+            <p>Reconstruction</p>
+            <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_1764_e_1_recon.wav"  autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="grid-item">
+                <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_1501_e_2_mix.wav" autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+                
+            </div>
+            <div class="grid-item">
+                <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_1501_e_2_recon.wav"  autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="grid-item">
+                <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_673_e_3_mix.wav" autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+                
+            </div>
+            <div class="grid-item">
+                <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_673_e_3_recon.wav"  autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+            </div>
+    </div>
+
+    <h4>Difficult</h4> 
+    <div class="grid-container">
+        <div class="grid-item">
+            <p>Mixture</p>
+            <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_1669_d_1_mix.wav" autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            
+            </div>
+            <div class="grid-item">
+            <p>Reconstruction</p>
+            <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_1669_d_1_recon.wav"  autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="grid-item">
+                <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_1319_d_2_mix.wav" autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+                
+            </div>
+            <div class="grid-item">
+                <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_1319_d_2_recon.wav"  autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="grid-item">
+                <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_1005_d_3_mix.wav" autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+                
+            </div>
+            <div class="grid-item">
+                <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_1005_d_3_recon.wav"  autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+            </div>
+    </div>
+
+    <h4>Hallucinations</h4> 
+    <div class="grid-container">
+        <div class="grid-item">
+            <p>Mixture</p>
+            <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_499_h_1_mix.wav" autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            
+            </div>
+            <div class="grid-item">
+            <p>Reconstruction</p>
+            <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_499_h_1_recon.wav"  autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="grid-item">
+                <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_1341_h_2_mix.wav" autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+                
+            </div>
+            <div class="grid-item">
+                <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_1341_h_2_recon.wav"  autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="grid-item">
+                <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_673_e_3_mix.wav" autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+                
+            </div>
+            <div class="grid-item">
+                <audio controls="controls">
+                <source src="https://github.com/mcdiffuse/mcdiffuse_code/raw/main/audio/mixture_673_e_3_recon.wav"  autoplay="" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+            </div>
+    </div>
+
+
+
+        <h2>Contact</h2>
+        <p>For any issues related to the code or the project, please raise an issue on this GitHub repository.</p>
+
+        <h2>Note</h2>
+        <p>The authors of this work are keeping their identity hidden as part of the anonymous submission process.</p>
+    </div>
+</body>
+</html>
